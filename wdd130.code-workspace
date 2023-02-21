@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../positioning"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
