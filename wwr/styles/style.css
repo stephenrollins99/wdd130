@@ -44,6 +44,7 @@ header {
     background-color: rgba(20,30,13, .7);
     display: grid;
     grid-template-columns: 150px auto;
+    text-align: center;
 }
 .rivers-card {
     grid-column: 2/4;
@@ -56,6 +57,10 @@ header {
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
+    width: 90%;
+    text-align: center;
+    margin: 50px;
+    
 }
 .book, .join {
     border-radius: 5px;
@@ -111,7 +116,9 @@ header {
     width: 80px;
 }
 .rivers-card, .camping-card, .rapids-cards {
-    margin: 200px 0;
+    margin: 200px;
+    margin: 50px auto;
+    width: 90%;
 }
 .card-img {
     border: 10px solid black;
@@ -131,7 +138,7 @@ header {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: 100px;
+
 }
 #hero-box {
     grid-column: 1/4;
