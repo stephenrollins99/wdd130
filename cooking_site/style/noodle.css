@@ -1,11 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-.hero{
-  margin-top: 50px;
-}
 .hero-image{
-  margin: 20px;
   text-align: center;
 }
 h1, h2, h3, h4{
@@ -14,9 +10,9 @@ h1, h2, h3, h4{
 .background{
   padding:0px;
 }
-.hero-msg{
-  margin: 20px;
-  text-align: center;
+#hero-msg{
+  margin: 50px;
+
 }
 p, li{
   font-family: Lato, Helvetica, sans-serif;
@@ -29,7 +25,6 @@ nav {
 
 nav a {
   padding: 0px;
-  /* text-align: center; */
   align-items: center;
   color: white;
   text-decoration: none;
@@ -40,11 +35,9 @@ nav a {
   width: 900px;
   font-size: large;
   background-color: rgb(247, 247, 195);
-  margin: 20px;
+  margin: 0;
+  margin-bottom: 70px;
 
-}
-#hero-box{
-  text-align: center;
 }
 li{
   margin: 1em;
@@ -56,11 +49,10 @@ li{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border: 10px solid rgb(251, 255, 43);
-  margin: 0px; 
-  /* background-color: rgb(251, 251, 188); */
+  margin: 0px;
+  margin-bottom: 60px; 
 }
 h1{
-  margin-right: 20px;
   text-align: center;
 }
 .ingredients2{
@@ -84,11 +76,12 @@ nav a:hover {
 }
 .opener{
     width: 900px;
+    margin-bottom: 50px;
 }
 main {
   display: grid;
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 50px;
   max-width: 900px;
   
 }
@@ -160,7 +153,7 @@ header {
     margin-left: 100px;
 }
 #hero-msg {
-    margin-left: 20%;
+    /* margin: ; */
 }
 #logo_link {
     padding-top: 5px;
@@ -235,6 +228,7 @@ footer .social img {
   #hero {
       margin-top: 0;
   }
+  
   #hero-msg .hero-image{
       margin-top: 0;
   }
@@ -255,5 +249,19 @@ footer .social img {
     display: block;
     height: auto;
     margin-top: 0;
+  }
+  #hero-msg{
+    margin: 0;
+  }
+  .home-grid{
+    margin: 0;
+  }
+  main{
+    display: block;
+    height: auto;
+    
+  }
+  .portions{
+    margin: 0;
   }
 }
