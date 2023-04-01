@@ -224,6 +224,7 @@ footer .social img {
   nav a {
       display: block;
       padding: 15px;
+      width: auto;
   }
   #hero {
       margin-top: 0;
@@ -244,22 +245,22 @@ footer .social img {
   }
   footer {
       margin-top: 25px;
+      width: auto;
   }
   .hero-image{
     display: block;
     height: auto;
     margin-top: 0;
   }
+  main{
+    display: block;
+    height: auto;
+  }
   #hero-msg{
     margin: 0;
   }
   .home-grid{
     margin: 0;
-  }
-  main{
-    display: block;
-    height: auto;
-    
   }
   .portions{
     margin: 0;
