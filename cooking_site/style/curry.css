@@ -43,7 +43,8 @@ li{
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  border: 10px solid rgb(42, 162, 23);
+  grid-template-columns: 1fr 1fr;
+  border: 10px solid  rgb(251, 255, 43);
   margin: 0px;
   margin-bottom: 0;
   grid-template-rows: 1fr 1fr;
