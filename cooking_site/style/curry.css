@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
-.hero-image{
-  text-align: center;
+.hero-image .seven .end_pic .spice-rack{
+  margin-left: 100px;
 }
 h1, h2, h3, h4{
   font-family: 'Nunito';
@@ -45,8 +45,21 @@ li{
   grid-template-columns: 1fr 1fr 1fr;
   border: 10px solid rgb(42, 162, 23);
   margin: 0px;
-  margin-bottom: 60px; 
+  margin-bottom: 0;
+  grid-template-rows: 1fr 1fr;
 }
+.explanations{
+    grid-column: 1/4;
+    margin-bottom: 0;
+}
+/* .expo_one {
+    grid-row: 1/4;
+}
+
+.expo_two{
+    grid-row: 2/3;
+
+} */
 h1{
   text-align: center;
 }
@@ -58,12 +71,15 @@ h1{
 }
 .list_one{
   grid-column: 1/2;
+  margin-top: 0;
 }
 .list_two{
   grid-column: 2/3;
+  margin-top: 0;
 }
 .list_three{
   grid-column: 3/4;
+  margin-top: 0;
 }
 nav a:hover {
   background-color: rgb(49, 50, 31);
@@ -79,8 +95,9 @@ main {
   margin-top: 50px;
   max-width: 900px;    
 }
-#noodle_img{
-  margin-bottom: 10px;
+.spice-rack{
+    margin-top: 5px;
+    margin-left: 20px;
 }
 main section img {
   box-sizing: border-box;
@@ -114,7 +131,12 @@ header {
   background: #55ACEE;
   color: white;
 }
-  
+.curry_rotti_pic{
+    margin-left: 100px;
+}
+.end_pic{
+    margin-left: 100px;
+}
 .google {
   background: #dd4b39;
   color: white;
@@ -137,13 +159,12 @@ header {
 .logo {
   width: 80px;
 }
-  
+.seven{
+    text-align: center;
+}
   
 .instructions{
       width: 900px;
-}
-.portions{
-      margin-left: 100px;
 }
 #logo_link {
     padding-top: 5px;
@@ -164,12 +185,7 @@ footer {
   margin-bottom: 20px;
   grid-column-gap: 50px;
 }
-/* .sause_inst{
-    grid-column: 1/2;
-}
-  .sause_pic{
-    grid-column: 2/3;
-} */
+
 footer a {
     color: bisque;
     text-decoration: none;

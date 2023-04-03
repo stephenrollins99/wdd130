@@ -45,9 +45,9 @@ li{
 .ingredients {
   width: 900px;
   padding: 10px;
-  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   border: 10px solid rgb(251, 255, 43);
   margin: 0px;
   margin-bottom: 60px; 
@@ -57,6 +57,7 @@ h1{
 }
 .ingredients2{
   grid-column: 1/2;
+
 }
 .noodle_img{
   text-align: center;
@@ -193,7 +194,9 @@ footer p a:hover {
 footer .social img {
   padding-top: 15px;
 }
-
+.bowl_title .sause_title{
+  text-align: center;
+}
 #feedback {
   background-color: antiquewhite;
   position: absolute;
