@@ -1,6 +1,25 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  padding: 0px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  text-decoration-line: underline;
+}
+main {
+  display: grid;
+  align-items: center;
+  margin-top: 50px;
+  max-width: 900px;
+  margin: auto;
+}
 .hero-image{
   text-align: center;
 }
@@ -17,19 +36,6 @@ h1, h2, h3, h4{
 p, li{
   font-family: Lato, Helvetica, sans-serif;
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav a {
-  padding: 0px;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: larger;
-}
 
 #hero-msg{
   width: 900px;
@@ -37,7 +43,6 @@ nav a {
   background-color: rgb(247, 247, 195);
   margin: 0;
   margin-bottom: 70px;
-
 }
 li{
   margin: 1em;
@@ -77,13 +82,6 @@ nav a:hover {
 .opener{
     width: 900px;
     margin-bottom: 50px;
-}
-main {
-  display: grid;
-  margin-left: 20%;
-  margin-top: 50px;
-  max-width: 900px;
-  
 }
 #noodle_img{
   margin-bottom: 10px;
@@ -157,7 +155,7 @@ header {
 
 }
 footer {
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 5px 10px;
   background-color: gray;
   color: bisque;

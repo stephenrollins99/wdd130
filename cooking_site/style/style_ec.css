@@ -10,7 +10,15 @@ nav a {
   align-items: center;
   color: white;
   text-decoration: none;
-  font-size: larger;
+  font-size: x-large;
+  text-decoration-line: underline;
+}
+main {
+display: grid;
+align-items: center;
+margin-top: 50px;
+max-width: 900px;    
+margin: auto;
 }
 h1, h2, h3, h4{
   font-family: 'Nunito';
@@ -26,7 +34,13 @@ p, li{
   float: left;
   margin-right: 10px;
 }
-  
+body {
+  padding: 0;
+  margin:0;
+  font-family: "[fill in]";
+  background-color: #fcfbfb;
+
+}
 #hero-msg{
 width: 900px;
 font-size: large;
@@ -59,14 +73,8 @@ nav a:hover {
   color: gray;
 }
 .opener{
-    width: 900px;
-    margin-bottom: 50px;
-}
-main {
-  display: grid;
-  margin-left: 20%;
-  margin-top: 50px;
-  max-width: 900px;    
+  width: 900px;
+  margin-bottom: 50px;
 }
 main section img {
   box-sizing: border-box;
@@ -168,7 +176,7 @@ header {
 
 }
 footer {
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 5px 10px;
   background-color: gray;
   color: bisque;

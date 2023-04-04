@@ -1,7 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  padding: 0px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+  text-decoration-line: underline;
+}
+main{
+  display: grid;
+  align-items: center; 
+  margin-top: 50px;   
+  width: 900px;
+  margin: auto;
+}
 .hero-image .seven .end_pic .spice-rack{
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  text-align: center;
+}
+body {
+  padding: 0;
+  margin:0;
+  font-family: "[fill in]";
+  background-color: #fcfbfb;
+}
+.hero{
+  margin-top: px;
 }
 h1, h2, h3, h4{
   font-family: 'Nunito';
@@ -15,19 +45,6 @@ h1, h2, h3, h4{
 p, li{
   font-family: Lato, Helvetica, sans-serif;
 }
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-nav a {
-  padding: 0px;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: larger;
-}
-  
   #hero-msg{
   width: 900px;
   font-size: large;
@@ -82,25 +99,14 @@ nav a:hover {
     width: 900px;
     margin-bottom: 50px;
 }
-main {
-  display: grid;
-  margin-left: 20%;
-  margin-top: 50px;
-  max-width: 900px;    
+.pop{
+  margin-top: 10px;
 }
 .spice-rack{
     margin-top: 5px;
     margin-left: 20px;
 }
-main section img {
-  box-sizing: border-box;
-}
-body {
-  padding: 0;
-  margin:0;
-  font-family: "[fill in]";
-  background-color: #fcfbfb;  
-}
+
 h2{
     margin: 0;
 }
@@ -164,7 +170,7 @@ header {
 
 }
 footer {
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 5px 10px;
   background-color: gray;
   color: bisque;
@@ -248,6 +254,7 @@ footer .social img {
       display: block;
       height: auto;
       margin-top: 0;
+      text-align: center;
     }
     main{
       display: block;
