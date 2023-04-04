@@ -12,9 +12,6 @@ nav a {
   text-decoration: none;
   font-size: larger;
 }
-.hero-image {
-  /* margin-left: 100px; */
-}
 h1, h2, h3, h4{
   font-family: 'Nunito';
 }
@@ -28,7 +25,6 @@ p, li{
 #rice-stock{
   float: left;
   margin-right: 10px;
-  /* margin-left: 25px; */
 }
   
 #hero-msg{
